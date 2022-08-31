@@ -1,4 +1,4 @@
-*{
+* {
   font-family: "Montserrat", sans-serif;
 }
 .logo-name {
@@ -315,37 +315,37 @@
   }
 }
 
-.cyan{
+.cyan {
   color: rgb(0, 189, 149);
 }
 
-.name{
+.name {
   font-size: 32px;
   color: #fff;
   font-weight: 600;
 }
 
-.personal-info{
+.personal-info {
   color: #fff;
 }
-.personal-info p{
+.personal-info p {
   line-height: 1.5rem;
 }
-.para{
+.para {
   margin-top: 2rem;
 }
 
-code{
+code {
   background-color: #b9b9b9;
   padding: 0.2rem;
-  color: #21272F ;
+  color: #21272f;
 }
 
-.margin{
+.margin {
   margin-top: 1.5rem;
 }
 
-.btn{
+.btn {
   margin-top: 5rem;
   padding: 0.8rem;
   border-radius: 14px;
@@ -353,20 +353,10 @@ code{
   font-weight: 700;
   font-size: 17px;
   color: #fff;
-  background-image: linear-gradient(55deg, #18D58E , #00BD95 );
+  background-image: linear-gradient(55deg, #18d58e, #00bd95);
   cursor: pointer;
 }
 
-.btn:hover{
+.btn:hover {
   box-shadow: 0 4px 8px -2px #00ff9d;
-}
-
-figure{
-  width: 150rem;
-  margin-top: 12px;
-}
-
-figure img{
-  width: 100%;
-  background: none;
 }

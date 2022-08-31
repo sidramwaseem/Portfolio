@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import profileImg from '../../assets/profile-img.svg';
+// import profileImg from "../../assets/profile-img.svg";
 
 function Home() {
   return (
@@ -86,23 +86,21 @@ function Home() {
             </h4>
           </blockquote>
           <div className="para">
-          <p>
-            I am an ambitious and passionate developer whose everyday mission is
-            to take a step further with her skills and learn new things. The
-            enthusiasm I've for my work keeps me committed to self-development
-            so I can achieve better results.{" "}
-          </p>
+            <p>
+              I am an ambitious and passionate developer whose everyday mission
+              is to take a step further with her skills and learn new things.
+              The enthusiasm I've for my work keeps me committed to
+              self-development so I can achieve better results.
+            </p>
 
-          <p className="margin">
-            However, there is a high probability this developer is still
-            googling how to center a <code>div</code>
-          </p>
+            <p className="margin">
+              However, there is a high probability this developer is still
+              googling how to center a <code>div</code>
+            </p>
           </div>
           <button className="btn">Download CV</button>
         </article>
-        <figure>
-        <img src={profileImg} alt="profileImg"/>
-        </figure>
+       <figure></figure>
       </section>
     </header>
   );
