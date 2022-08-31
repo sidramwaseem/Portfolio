@@ -19,16 +19,16 @@ function Home() {
         </div>
 
         <div class="nav-links">
-          <a href="#home" target="_blank">
+          <a href="#home">
             Home
           </a>
-          <a href="#services" target="_blank">
+          <a href="#services" >
             Services
           </a>
-          <a href="#projects" target="_blank">
+          <a href="#projects">
             Projects
           </a>
-          <a href="#contact" target="_blank">
+          <a href="#contact">
             Contact
           </a>
         </div>
@@ -37,8 +37,13 @@ function Home() {
         <input type="text" class="input-search" placeholder="Type to Search..."/>
       </div>
       </nav>
-      <section id="home"></section>
+      <section id="home">
+      <aside className="social"></aside>
+      <article></article>
+      <figure></figure>
+      </section>
     </header>
+    
   );
 }
 
