@@ -1,3 +1,6 @@
+*{
+  font-family: "Montserrat", sans-serif;
+}
 .logo-name {
   font-family: "Nothing You Could Do", cursive;
   font-size: 36px;
@@ -98,7 +101,7 @@
   }
   .nav > .nav-btn > label:hover,
   .nav #nav-check:checked ~ .nav-btn > label {
-    background-color: #00BD95;
+    background-color: #00bd95;
     transition: all 0.5s;
   }
   .nav > .nav-btn > label > span {
@@ -111,7 +114,7 @@
     position: absolute;
     display: inline-block;
     width: 100%;
-    background-color: #171C23 ;
+    background-color: #171c23;
     height: 0px;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
@@ -129,6 +132,9 @@
   .nav > #nav-check:checked ~ .nav-links {
     height: calc(100vh - 50px);
     overflow-y: auto;
+  }
+  .search-box {
+    display: none;
   }
 }
 
@@ -187,8 +193,180 @@
   transition: all 500ms cubic-bezier(0, 0.11, 0.35, 2);
 }
 
-@media only screen and (max-width: 600px) {
-  .search-box {
-    display: none;
+#home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid red;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.social a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.social ul {
+  padding: 0px;
+  transform: translate(-270px, 0);
+}
+.social ul li {
+  display: block;
+  margin: 6px;
+  background: #171c23;
+  width: 320px;
+  text-align: right;
+  padding: 10px;
+  border-radius: 0 30px 30px 0;
+  transition: all 1s;
+}
+.social ul li:hover {
+  transform: translate(110px, 0);
+  background: #00bd95;
+}
+.social ul li:hover a {
+  color: #fff;
+}
+.social ul li:hover i {
+  color: #fff;
+  background: #171c23;
+  transform: rotate(360deg);
+  transition: all 1s;
+}
+.social ul li i {
+  margin-left: 10px;
+  color: #000;
+  background: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  background: #ffffff;
+  transform: rotate(0deg);
+}
+
+.wordCarousel {
+  font-size: 36px;
+  font-weight: 100;
+  color: #eee;
+  padding: 0%;
+  margin: 0;
+}
+
+.wordCarousel div {
+  overflow: hidden;
+  position: relative;
+  height: 65px;
+}
+
+.wordCarousel li {
+  font-family: Serif;
+  color: #00bd95;
+  font-weight: 700;
+  padding: 0 10px;
+  height: 45px;
+  margin-bottom: 45px;
+  display: block;
+}
+
+.flip {
+  animation: flip 12s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+}
+@keyframes flip {
+  0% {
+    margin-top: -450px;
   }
+  5% {
+    margin-top: -360px;
+  }
+  20% {
+    margin-top: -360px;
+  }
+  25% {
+    margin-top: -270px;
+  }
+  40% {
+    margin-top: -270px;
+  }
+  45% {
+    margin-top: -180px;
+  }
+  60% {
+    margin-top: -180px;
+  }
+  65% {
+    margin-top: -90px;
+  }
+  80% {
+    margin-top: -90px;
+  }
+  85% {
+    margin-top: 0px;
+  }
+  99.99% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: -450px;
+  }
+}
+
+.cyan{
+  color: rgb(0, 189, 149);
+}
+
+.name{
+  font-size: 32px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.personal-info{
+  color: #fff;
+}
+.personal-info p{
+  line-height: 1.5rem;
+}
+.para{
+  margin-top: 2rem;
+}
+
+code{
+  background-color: #b9b9b9;
+  padding: 0.2rem;
+  color: #21272F ;
+}
+
+.margin{
+  margin-top: 1.5rem;
+}
+
+.btn{
+  margin-top: 5rem;
+  padding: 0.8rem;
+  border-radius: 14px;
+  border: none;
+  font-weight: 700;
+  font-size: 17px;
+  color: #fff;
+  background-image: linear-gradient(55deg, #18D58E , #00BD95 );
+  cursor: pointer;
+}
+
+.btn:hover{
+  box-shadow: 0 4px 8px -2px #00ff9d;
+}
+
+figure{
+  width: 150rem;
+  margin-top: 12px;
+}
+
+figure img{
+  width: 100%;
+  background: none;
 }
