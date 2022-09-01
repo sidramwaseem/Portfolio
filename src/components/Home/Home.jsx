@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-// import profileImg from "../../assets/profile-img.svg";
+import profileImg from "../../assets/profile-img.jpg";
 
 function Home() {
   return (
@@ -37,7 +37,7 @@ function Home() {
         </div>
       </nav>
       <section id="home">
-        <aside className="social">
+        <aside className="social responsive-social">
           <ul>
             <li>
               <a
@@ -68,6 +68,7 @@ function Home() {
             </li>
           </ul>
         </aside>
+
         <article className="personal-info">
           <blockquote className="name">
             <p>
@@ -95,12 +96,14 @@ function Home() {
 
             <p className="margin">
               However, there is a high probability this developer is still
-              googling how to center a <code>div</code>
+              googling how to center a <code>div</code>.
             </p>
           </div>
           <button className="btn">Download CV</button>
         </article>
-       <figure></figure>
+        <figure className="profile-figure">
+          <img src={profileImg} alt="Profile" className="profile-img" />
+        </figure>
       </section>
     </header>
   );

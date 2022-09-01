@@ -198,11 +198,11 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  border: 2px solid red;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding: 1rem;
   margin-top: 2rem;
 }
+
+
 
 .social a {
   color: #fff;
@@ -237,7 +237,7 @@
   transition: all 1s;
 }
 .social ul li i {
-  margin-left: 10px;
+  margin-left: 60px;
   color: #000;
   background: #fff;
   padding: 10px;
@@ -260,17 +260,18 @@
 .wordCarousel div {
   overflow: hidden;
   position: relative;
-  height: 65px;
+  height: 95px;
 }
 
 .wordCarousel li {
   font-family: Serif;
   color: #00bd95;
   font-weight: 700;
-  padding: 0 10px;
   height: 45px;
   margin-bottom: 45px;
   display: block;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
 }
 
 .flip {
@@ -324,15 +325,24 @@
   color: #fff;
   font-weight: 600;
 }
+.name > p{
+  margin-bottom: 15px;
+}
 
 .personal-info {
   color: #fff;
+  margin-right: 10rem;
+
 }
 .personal-info p {
   line-height: 1.5rem;
 }
 .para {
   margin-top: 2rem;
+  border: 2px solid orange;
+  max-width: 40rem;
+  width: 100%;
+  padding: 1rem;
 }
 
 code {
@@ -359,4 +369,95 @@ code {
 
 .btn:hover {
   box-shadow: 0 4px 8px -2px #00ff9d;
+}
+
+.profile-figure {
+  max-width: 350px;
+  width: 100%;
+  position: relative;
+}
+
+.profile-figure:before,
+.profile-figure:after {
+  content: "";
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  background: linear-gradient(
+    55deg,
+    #023436,
+    #03b5aa,
+    #037971,
+    #19535f,
+    #00bfb3,
+    #049a8f,
+    #80ded9,
+    #78c6a3,
+    #99e2b4,
+    #036666
+  );
+  background-size: 400%;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  z-index: -1;
+  animation: steam 20s linear infinite;
+}
+
+@keyframes steam {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.profile-figure:after {
+  filter: blur(10px);
+}
+
+.profile-img {
+  width: 100%;
+}
+
+
+@media (max-width: 1120px){
+  .para {
+    margin-top: 2rem;
+    border: 2px solid orange;
+    max-width: 90rem;
+    width: 100%;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 980px){
+  #home{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .personal-info{
+    text-align: center;
+    margin: 0;
+  }
+  .para{
+    margin: 0 auto;
+    padding: 0;
+    max-width: 100%;
+    align-self: center;
+    /* width: 100%; */
+  }
+  .social{
+    display: none;
+  }
+
+  .btn{
+    margin: 70px auto;
+  }
+
 }
