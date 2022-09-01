@@ -194,60 +194,17 @@
 }
 
 #home {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
   padding: 1rem;
   margin-top: 2rem;
 }
 
-
-
-.social a {
-  color: #fff;
-  text-decoration: none;
+.main-homepage{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.social ul {
-  padding: 0px;
-  transform: translate(-270px, 0);
-}
-.social ul li {
-  display: block;
-  margin: 6px;
-  background: #171c23;
-  width: 320px;
-  text-align: right;
-  padding: 10px;
-  border-radius: 0 30px 30px 0;
-  transition: all 1s;
-}
-.social ul li:hover {
-  transform: translate(110px, 0);
-  background: #00bd95;
-}
-.social ul li:hover a {
-  color: #fff;
-}
-.social ul li:hover i {
-  color: #fff;
-  background: #171c23;
-  transform: rotate(360deg);
-  transition: all 1s;
-}
-.social ul li i {
-  margin-left: 60px;
-  color: #000;
-  background: #fff;
-  padding: 10px;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  font-size: 20px;
-  background: #ffffff;
-  transform: rotate(0deg);
-}
 
 .wordCarousel {
   font-size: 36px;
@@ -339,7 +296,6 @@
 }
 .para {
   margin-top: 2rem;
-  border: 2px solid orange;
   max-width: 40rem;
   width: 100%;
   padding: 1rem;
@@ -360,13 +316,16 @@ code {
   padding: 0.8rem;
   border-radius: 14px;
   border: none;
-  font-weight: 700;
-  font-size: 17px;
-  color: #fff;
   background-image: linear-gradient(55deg, #18d58e, #00bd95);
   cursor: pointer;
-}
 
+}
+.btn a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 17px;
+}
 .btn:hover {
   box-shadow: 0 4px 8px -2px #00ff9d;
 }
@@ -427,7 +386,6 @@ code {
 @media (max-width: 1120px){
   .para {
     margin-top: 2rem;
-    border: 2px solid orange;
     max-width: 90rem;
     width: 100%;
     padding: 1rem;
@@ -435,29 +393,89 @@ code {
 }
 
 @media (max-width: 980px){
-  #home{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
+ .main-homepage{
+  flex-direction: column;
+ }
   .personal-info{
     text-align: center;
     margin: 0;
   }
+  .btn{
+    margin-bottom: 50px;
+  }
   .para{
-    margin: 0 auto;
+    margin: 10px auto;
     padding: 0;
     max-width: 100%;
     align-self: center;
     /* width: 100%; */
   }
-  .social{
-    display: none;
+  .profile-figure{
+    margin-bottom: 50px;
   }
+}
 
-  .btn{
-    margin: 70px auto;
-  }
+.socials-list{
+  margin-top: 20px;
+  /* text-align: center; */
+  color: #fff;
+  font-size: 26px;
+  font-weight: 600;
+}
+.social {
+  margin:30px auto;
+  padding:0;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
 
+.social li {
+  list-style: none;
+}
+
+.social li a {
+  position: relative;
+  width:60px;
+  height:60px;
+  display:block;
+  text-align:center;
+  margin:0 10px;
+  border-radius: 50%;
+  padding: 6px;
+  box-sizing: border-box;
+  text-decoration:none;
+  box-shadow: 0 10px 15px #111316 ;
+  background: linear-gradient(0deg, #155750 , #18D58E );
+  transition: .5s;
+}
+
+.social li a:hover {
+  box-shadow: 0 2px 5px #171C23 ;
+  text-decoration:none;
+}
+
+.social li a .fab {
+  width: 100%;
+  height:100%;
+  display:block;
+  background: linear-gradient(0deg, #18D58E, #155750 );
+  border-radius: 50%;
+  line-height: calc(60px - 12px);
+  font-size:24px;
+  color:  #fff  ;
+  transition: .5s;
+}
+
+ul li:nth-child(2) a:hover .fab {
+  color: #00aced;
+}
+
+
+ul li:nth-child(3) a:hover .fab {
+  color: #007bb5;
+}
+
+ul li:nth-child(4) a:hover .fab {
+  color: #211f1f;
 }
