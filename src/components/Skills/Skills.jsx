@@ -5,7 +5,7 @@ import './Skills.css'
 function Skills() {
 
     const tagElement = tags.map(tag => {
-        return  <a href={tag.href} target="_blank" rel="noreferrer"><span style={{color:tag.color,backgroundColor:tag.backgroundColor}} className="tag">{tag.name}</span></a>
+        return  <a href={tag.href} target="_blank" rel="noreferrer"><span style={{color:tag.color,backgroundColor:tag.backgroundColor,cursor: tag.href?"pointer":"not-allowed"}} className="tag">{tag.name}</span></a>
     })
   return (
     <section id="skills">
