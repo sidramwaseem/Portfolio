@@ -1,0 +1,19 @@
+#skills{
+    background-color: #171C23 ;
+}
+
+.tags-container{
+    width: 80%;
+    margin: .5em auto
+}
+
+.tag {
+    display: inline-block;
+    border-radius: 3px;
+    padding: .2em .5em .3em;
+    border-radius: 2px;
+    background: #454e56;
+    color: #b2becd;
+    font-weight: 600;
+    margin: .5em .3em
+}
