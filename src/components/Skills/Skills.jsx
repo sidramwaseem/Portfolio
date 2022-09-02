@@ -5,13 +5,17 @@ import './Skills.css'
 function Skills() {
 
     const tagElement = tags.map(tag => {
-        return  <a href="h"><span style={{color:tag.color,backgroundColor:tag.backgroundColor}} className="tag tag-tag.name tag-lg">{tag.name}</span></a>
+        return  <a href={tag.href} target="_blank" rel="noreferrer"><span style={{color:tag.color,backgroundColor:tag.backgroundColor}} className="tag">{tag.name}</span></a>
     })
   return (
     <section id="skills">
-    <div className='tags-container'>
+    <article className='skill-header'>
+    <h2>My <span className='cyan'>Skillset</span></h2>
+    <p>Fingers crossed for the colorless tags to get their entitled colors soon.</p>
+    </article>
+    <main className='tags-container'>
     {tagElement}
-    </div>
+    </main>
     </section>
   )
 }

@@ -1,5 +1,21 @@
 #skills{
     background-color: #171C23 ;
+    color: #fff;
+    padding: 2rem 1.7em;
+}
+
+.skill-header{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.skill-header p{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 1.5em 0;
+}
+.cyan{
+    color: #00bd95;
 }
 
 .tags-container{
@@ -14,6 +30,7 @@
     border-radius: 2px;
     background: #454e56;
     color: #b2becd;
-    font-weight: 600;
-    margin: .5em .3em
+    font-weight: 700;
+    margin: .5em .3em;
+    cursor:pointer;
 }
