@@ -1,36 +1,36 @@
-#skills{
-    background-color: #171C23 ;
-    color: #fff;
-    padding: 2rem 1.7em;
+#skills {
+  background-color: #171c23;
+  color: #fff;
+  padding: 2rem 1.7em;
 }
 
-.skill-header{
-    font-size: 18px;
-    font-weight: 700;
+.skill-header {
+  font-size: 18px;
+  font-weight: 700;
 }
 
-.skill-header p{
-    font-size: 16px;
-    font-weight: 400;
-    margin: 1.5em 0;
+.skill-header p {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 1.5em 0;
 }
-.cyan{
-    color: #00bd95;
+.cyan {
+  color: #00bd95;
 }
 
-.tags-container{
-    width: 80%;
-    margin: .5em auto
+.tags-container {
+  width: 80%;
+  margin: 0.5em auto;
 }
 
 .tag {
-    display: inline-block;
-    border-radius: 3px;
-    padding: .2em .5em .3em;
-    border-radius: 2px;
-    background: #454e56;
-    color: #b2becd;
-    font-weight: 700;
-    margin: .5em .3em;
-    cursor:pointer;
+  display: inline-block;
+  border-radius: 3px;
+  padding: 0.2em 0.5em 0.3em;
+  border-radius: 2px;
+  background: #454e56;
+  color: #b2becd;
+  font-weight: 700;
+  margin: 0.5em 0.3em;
+  cursor: pointer;
 }
