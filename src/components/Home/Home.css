@@ -337,33 +337,10 @@ code {
   max-width: 350px;
   width: 100%;
   position: relative;
+  box-shadow: 0px 0px 20px -5px #00ff9d;
 }
 
-.profile-figure:before,
-.profile-figure:after {
-  content: "";
-  position: absolute;
-  left: -2px;
-  top: -2px;
-  background: linear-gradient(
-    55deg,
-    #023436,
-    #03b5aa,
-    #037971,
-    #19535f,
-    #00bfb3,
-    #049a8f,
-    #80ded9,
-    #78c6a3,
-    #99e2b4,
-    #036666
-  );
-  background-size: 400%;
-  width: calc(100% + 4px);
-  height: calc(100% + 4px);
-  z-index: -1;
-  animation: steam 20s linear infinite;
-}
+
 
 @keyframes steam {
   0% {

@@ -8,7 +8,6 @@ function Home() {
       <nav className="nav">
         <aside className="brand-name">
           <span className="logo-name">SW</span>
-          <h1 className="h1">Portfolio</h1>
         </aside>
         <input type="checkbox" id="nav-check" />
         <div class="nav-btn">
