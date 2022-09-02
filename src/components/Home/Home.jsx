@@ -48,7 +48,7 @@ function Home() {
           <h4 className="wordCarousel">
             <div>
               <ul className="flip">
-                <li>Mentee</li>
+                <li>Software Engineer</li>
                 <li>Web Developer</li>
                 <li>Coder</li>
                 <li>Frontend Developer</li>

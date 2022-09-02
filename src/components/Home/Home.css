@@ -47,7 +47,8 @@
 .nav > .nav-links {
   display: inline;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 300;
+  text-transform: uppercase;
 }
 
 .nav > .nav-links > a:hover,
