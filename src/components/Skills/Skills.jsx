@@ -26,8 +26,7 @@ function Skills() {
           My <span className="cyan">Skillset</span>
         </h2>
         <p>
-          Fingers crossed for the colorless tags to get their entitled colors
-          soon.
+          On a journey to provide the colorless tags their entitled color.
         </p>
       </article>
       <main className="tags-container">{tagElement}</main>
