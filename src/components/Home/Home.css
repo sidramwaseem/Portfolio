@@ -26,6 +26,7 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 1.2rem;
+  height: 60px;
   padding: 0.5rem;
   box-shadow: 0px 25px 30px -15px #171C23 ;
 }
@@ -137,64 +138,9 @@
     height: calc(100vh - 50px);
     overflow-y: auto;
   }
-  .search-box {
+  .btn-home {
     display: none;
   }
-}
-
-.search-box {
-  width: fit-content;
-  height: fit-content;
-  position: relative;
-}
-.input-search {
-  height: 50px;
-  width: 50px;
-  border-style: none;
-  padding: 10px;
-  font-size: 18px;
-  letter-spacing: 2px;
-  outline: none;
-  border-radius: 25px;
-  transition: all 0.5s ease-in-out;
-  background-color: #00bd95;
-  padding-right: 40px;
-  color: #fff;
-}
-.input-search::placeholder {
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 18px;
-  letter-spacing: 2px;
-  font-weight: 100;
-}
-.btn-search {
-  width: 50px;
-  height: 50px;
-  border-style: none;
-  font-size: 20px;
-  font-weight: bold;
-  outline: none;
-  cursor: pointer;
-  border-radius: 50%;
-  position: absolute;
-  right: 0px;
-  color: #ffffff;
-  background-color: transparent;
-  pointer-events: painted;
-}
-.btn-search:focus ~ .input-search {
-  width: 300px;
-  border-radius: 0px;
-  background-color: transparent;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  transition: all 500ms cubic-bezier(0, 0.11, 0.35, 2);
-}
-.input-search:focus {
-  width: 300px;
-  border-radius: 0px;
-  background-color: transparent;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  transition: all 500ms cubic-bezier(0, 0.11, 0.35, 2);
 }
 
 #home {
@@ -316,13 +262,11 @@ code {
 }
 
 .btn {
-  margin-top: 5rem;
-  padding: 0.8rem;
+  padding: 0.7rem;
   border-radius: 14px;
   border: none;
   background-image: linear-gradient(55deg, #18d58e, #00bd95);
   cursor: pointer;
-
 }
 .btn a{
   text-decoration: none;
@@ -334,6 +278,9 @@ code {
   box-shadow: 0 4px 8px -2px #00ff9d;
 }
 
+.btn-desktop{
+  display: none;
+}
 .profile-figure {
   max-width: 350px;
   width: 100%;
@@ -381,9 +328,7 @@ code {
     text-align: center;
     margin: 0;
   }
-  .btn{
-    margin-bottom: 50px;
-  }
+
   .para{
     margin: 10px auto;
     padding: 0;
@@ -394,6 +339,28 @@ code {
   .profile-figure{
     margin-bottom: 50px;
   }
+  .btn{
+    display: none;
+  }
+  .btn-desktop{
+    display: block;
+    margin: 3rem auto;
+    padding: 0.7rem;
+    border-radius: 14px;
+    border: none;
+    background-image: linear-gradient(55deg, #18d58e, #00bd95);
+    cursor: pointer;
+  }
+  .btn-desktop a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 17px;
+  }
+  .btn-desktop:hover {
+    box-shadow: 0 4px 8px -2px #00ff9d;
+  }
+
 }
 
 .socials-list{

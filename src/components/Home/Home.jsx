@@ -26,16 +26,7 @@ function Home() {
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
         </div>
-        <div className="search-box">
-          <button className="btn-search">
-            <i class="fas fa-search"></i>
-          </button>
-          <input
-            type="text"
-            class="input-search"
-            placeholder="Type to Search..."
-          />
-        </div>
+        <button className="btn" > <a href="../../assets/CV.pdf" title="CV" download>Download CV</a></button>
       </nav>
       <section id="home">
       <main className="main-homepage">
@@ -70,7 +61,7 @@ function Home() {
             googling how to center a <code>div</code>.
           </p>
         </div>
-        <button className="btn" > <a href="../../assets/CV.pdf" title="CV" download>Download CV</a></button>
+        <button className="btn-desktop" > <a href="../../assets/CV.pdf" title="CV" download>Download CV</a></button>
       </article>
       <figure className="profile-figure reveal">
         <img src={profileImg} alt="Profile" className="profile-img" />
