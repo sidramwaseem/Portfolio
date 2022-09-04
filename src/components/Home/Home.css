@@ -26,7 +26,8 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 1.2rem;
-  padding: 0 0.7rem;
+  padding: 0.5rem;
+  box-shadow: 0px 25px 30px -15px #171C23 ;
 }
 
 .nav > .nav-header {
@@ -458,4 +459,16 @@ ul li:nth-child(3) a:hover .fab {
 
 ul li:nth-child(4) a:hover .fab {
   color: #211f1f;
+}
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.reveal.active{
+  transform: translateY(0px);
+  opacity: 1;
 }
