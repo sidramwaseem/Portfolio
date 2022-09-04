@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#projects {
+  color: #fff;
+  overflow: hidden;
+}
+
+.portfolio--grid-container {
+  border: 2px solid red;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.portfolio-grid {
+  max-width: 300px;
+  border: 2px solid green;
+  border-radius: 16px;
+  background-color: #212f45;
+  padding: 10px;
+}
+
+.portfolio-grid > h3 {
+  font-weight: 700;
+  font-size: 17px;
+}
+.project-fig {
+  width: 100%;
+}
+
+.project-fig > img {
+  width: 100%;
+  border-radius: 16px;
+}
+
+.project-fig > figcaption {
+  color: #eee;
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.button {
+  border: none;
+  margin-bottom: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.7rem;
+  border-radius: 14px;
+  border: none;
+  background-image: linear-gradient(55deg, #18d58e, #00bd95);
+  cursor: pointer;
+  color: #fff;
+}
+
+.button:hover{
+    box-shadow: 0 4px 8px -2px #00ff9d;
+}
+.code-btn{
+    border: 2px solid #18D58E;
+    color: #18D58E ;
+    background: #fff;
+}
+
+@media only screen and (max-width: 840px) {
+  .portfolio--grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 20px;
+    margin: 30px 30px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .portfolio--grid-container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 10px;
+    margin: 20px;
+    text-align: center;
+  }
+  .portfolio-grid {
+    margin: 20px auto;
+  }
+}
