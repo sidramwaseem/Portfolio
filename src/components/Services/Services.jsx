@@ -1,5 +1,5 @@
 import React from "react";
-import './Services.css;'
+import './services.css';
 import "../../script.js";
 
 function Services() {
@@ -10,10 +10,10 @@ function Services() {
     </blockquote>
       <div class="all">
         <div class="lefter">
-          <div class="text">Hosting</div>
+          <div class="text">Responsive Web Design</div>
         </div>
         <div class="left">
-          <div class="text">Web Design</div>
+          <div class="text">Figma to HTML</div>
         </div>
         <div class="center">
           <div class="explainer">
@@ -22,10 +22,10 @@ function Services() {
           <div class="text">Frontend Development</div>
         </div>
         <div class="right">
-          <div class="text">Backend Development</div>
+          <div class="text">React Development</div>
         </div>
         <div class="righter">
-          <div class="text">SEO</div>
+          <div class="text">Semantic Code</div>
         </div>
       </div>
     </section>
