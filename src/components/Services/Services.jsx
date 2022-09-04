@@ -5,12 +5,12 @@ import "../../script.js";
 function Services() {
   return (
     <section id="services">
-    <blockquote className="service-header">
+    <blockquote className="service-header reveal">
     <h2>Now let's talk about what I <span className="cyan">can do </span>for you!</h2>
     </blockquote>
       <div class="all">
         <div class="lefter">
-          <div class="text">Responsive Web Design</div>
+          <div class="text">HTML/CSS Responsive Web Design</div>
         </div>
         <div class="left">
           <div class="text">Figma to HTML</div>

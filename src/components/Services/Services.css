@@ -3,13 +3,14 @@
   display: flex;
   flex-direction: column;
   font-weight: 300;
-  padding: 2rem 1.7rem;
+  padding: 4rem 1.7rem;
 }
 
 .service-header{
     text-transform: uppercase;
     color: #fff;
     margin: 1.5em 0;
+    font-weight: 700;
 }
 
 .all {
@@ -23,6 +24,10 @@
   transform-style: preserve-3d;
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.lefter .text{
+    bottom: -18px;
 }
 
 .all:hover {
@@ -46,7 +51,8 @@
 .right,
 .lefter,
 .righter {
-  width: 200px;
+  max-width: 200px;
+  width: 100%;
   height: 150px;
   transform-style: preserve-3d;
   border-radius: 10px;
@@ -57,7 +63,7 @@
   transition-delay: 1s;
   position: relative;
   background-position: center center;
-  background-size: contain;
+  background-size:contain;
   background-repeat: no-repeat;
   background-color: #00bd95;
   cursor: pointer;
@@ -86,7 +92,7 @@
 
 .lefter {
   transform: translateX(-60px) translateZ(-50px) rotateY(-10deg);
-  background-image: url(https://cdn3.iconfinder.com/data/icons/other-icons/48/organization-512.png);
+  background-image: url('../../assets/icons/responsive.png');
 }
 
 .left {
@@ -96,17 +102,17 @@
 
 .center {
   opacity: 1;
-  background-image: url(https://cdn3.iconfinder.com/data/icons/other-icons/48/app_window-512.png);
+  background-image: url('../../assets/icons/frontend.png');
 }
 
 .right {
   transform: translateX(30px) translateZ(-25px) rotateY(5deg);
-  background-image: url(https://cdn3.iconfinder.com/data/icons/other-icons/48/React-512.png);
+  background-image: url('../../assets/icons/react.png');
 }
 
 .righter {
   transform: translateX(60px) translateZ(-50px) rotateY(10deg);
-  background-image: url(https://cdn3.iconfinder.com/data/icons/other-icons/48/search-512.png);
+  background-image: url('../../assets/icons/SEO.png');
 }
 
 .explainer {
@@ -122,4 +128,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.reveal.active{
+  transform: translateY(0px);
+  opacity: 1;
 }
