@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import profileImg from "../../assets/profile-img.jpg";
+import "../../script.js"
 
 function Home() {
   return (
@@ -10,8 +11,8 @@ function Home() {
           <span className="logo-name">SW</span>
         </aside>
         <input type="checkbox" id="nav-check" />
-        <div class="nav-btn">
-          <label for="nav-check">
+        <div className="nav-btn">
+          <label htmlFor="nav-check">
             <span></span>
             <span></span>
             <span></span>
@@ -25,8 +26,8 @@ function Home() {
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
         </div>
-        <div class="search-box">
-          <button class="btn-search">
+        <div className="search-box">
+          <button className="btn-search">
             <i class="fas fa-search"></i>
           </button>
           <input
@@ -56,7 +57,7 @@ function Home() {
             </div>
           </h4>
         </blockquote>
-        <div className="para">
+        <div className="para reveal">
           <p>
             I am an ambitious and passionate developer whose everyday mission
             is to take a step further with her skills and learn new things.
@@ -71,11 +72,11 @@ function Home() {
         </div>
         <button className="btn" > <a href="../../assets/CV.pdf" title="CV" download>Download CV</a></button>
       </article>
-      <figure className="profile-figure">
+      <figure className="profile-figure reveal">
         <img src={profileImg} alt="Profile" className="profile-img" />
       </figure>
       </main>
-      <div className="socials-list">
+      <div className="socials-list reveal">
       <ul className="social">
       <li>Check Out My:</li>
         <li>
