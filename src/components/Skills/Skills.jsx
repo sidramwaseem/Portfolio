@@ -1,7 +1,7 @@
 import React from "react";
 import tags from "./tags.js";
 import "./Skills.css";
-import "../../script.js"
+import "../../script.js";
 
 function Skills() {
  
