@@ -25,7 +25,7 @@ function Skills() {
     <section id="skills">
       <article className="skill-header reveal">
         <h2>
-          My <span className="cyan">Skillset</span>
+          My <span className="cyan">Skillset</span>.
         </h2>
         <p>
           On a roadmap to provide the colorless tags their entitled color.
