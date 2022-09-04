@@ -8,7 +8,7 @@ function Services() {
     <blockquote className="service-header reveal">
     <h2>Now let's talk about what I <span className="cyan">can do </span>for you!</h2>
     </blockquote>
-      <div class="all reveal">
+      <div class="all">
         <div class="lefter">
           <div class="text">HTML/CSS Responsive Web Design</div>
         </div>
