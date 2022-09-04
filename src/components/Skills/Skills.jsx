@@ -1,11 +1,13 @@
 import React from "react";
 import tags from "./tags.js";
 import "./Skills.css";
+import "../../script.js"
 
 function Skills() {
-  const tagElement = tags.map((tag) => {
+ 
+  const tagElement = tags.map((tag,index) => {
     return (
-      <a href={tag.href} target="_blank" rel="noreferrer">
+      <a href={tag.href} target="_blank" rel="noreferrer" key={index} className="reveal">
         <span
           style={{
             color: tag.color,
@@ -21,7 +23,7 @@ function Skills() {
   });
   return (
     <section id="skills">
-      <article className="skill-header">
+      <article className="skill-header reveal">
         <h2>
           My <span className="cyan">Skillset</span>
         </h2>
@@ -29,7 +31,7 @@ function Skills() {
           On a journey to provide the colorless tags their entitled color.
         </p>
       </article>
-      <main className="tags-container">{tagElement}</main>
+      <main className="tags-container fade-in">{tagElement}</main>
     </section>
   );
 }
