@@ -28,10 +28,6 @@ function Services() {
           <div class="text">SEO</div>
         </div>
       </div>
-
-      <a href="https://jouanmarcel.com" target="_blank" class="ref" rel="noreferrer">
-        🔗 Jouan Marcel
-      </a>
     </section>
   );
 }
