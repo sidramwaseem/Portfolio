@@ -24,6 +24,7 @@
   transform-style: preserve-3d;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  text-align: center;
 }
 
 .lefter .text{
@@ -139,4 +140,17 @@
 .reveal.active{
   transform: translateY(0px);
   opacity: 1;
+}
+
+@media only screen and (max-width: 1020px){
+  .text{
+    bottom:-20px;
+    font-size:13px;
+  }
+}
+
+@media only screen and (max-width: 1020px){
+  .lefter .text{
+    bottom: -30px;
+}
 }
