@@ -44,6 +44,7 @@ function Projects() {
       <h1 class="portfolio-heading reveal">
         My <span className="cyan">Projects</span>.
       </h1>
+      <p>Take a look at what I've <span className="cyan">created </span> and be inspired by!</p>
       <div class="portfolio--grid-container">{projectElement}</div>
       <div className="btn-wrapper">
         <a
