@@ -3,7 +3,10 @@
   background-color: #171C23 ;
   padding: 4rem 1.7rem;
 }
-
+#projects p{
+  margin-top: 20px;
+  
+}
 .btn-wrapper{
   width: 100%;
   text-align: center;
