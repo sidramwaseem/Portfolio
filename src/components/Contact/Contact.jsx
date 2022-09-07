@@ -32,9 +32,9 @@ function Contact() {
   }
   return (
     <section id="contact">
-      <blockquote className="contact-header reveal">
-        <h2>Contact</h2>
-        <p>
+      <blockquote className="contact-header section-heading reveal">
+        <h2><span className="cyan">Contact</span></h2>
+        <p >
           Let's <span className="cyan">create</span> something cool together.
         </p>
       </blockquote>

@@ -5,9 +5,9 @@ import "../../script.js";
 function Services() {
   return (
     <section id="services">
-    <blockquote className="service-header reveal">
-    <h2>My <span className="cyan">Services </span>.</h2>
-    <p>What's the point of learning all the cool stuff if I couldn't put them to good use?</p>
+    <blockquote className="service-header section-heading reveal">
+    <h2><span className="cyan">Services </span></h2>
+    <p>What's the point of <span className="cyan">learning</span> all the cool stuff if I couldn't put them to good use?</p>
     </blockquote>
       <div class="all">
         <div class="lefter">

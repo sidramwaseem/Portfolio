@@ -41,10 +41,16 @@ function Projects() {
   });
   return (
     <section id="projects">
-      <h1 class="portfolio-heading reveal">
-        My <span className="cyan">Projects</span>.
-      </h1>
-      <p>Take a look at what I've <span className="cyan">created </span> and be inspired by!</p>
+      <blockquote className="project-header section-heading reveal">
+        <h2 className="portfolio-heading reveal">
+        <span className="cyan">Projects</span>
+        </h2>
+        <p className="section-header-para">
+          Take a look at what I've <span className="cyan">created </span> and be
+          inspired by!
+        </p>
+      </blockquote>
+
       <div class="portfolio--grid-container">{projectElement}</div>
       <div className="btn-wrapper">
         <a

@@ -6,18 +6,6 @@
   padding: 4rem 1.7rem;
 }
 
-.service-header{
-  font-size: 18px;
-    text-transform: uppercase;
-    color: #fff;
-    margin: 1.5em 0;
-    font-weight: 700;
-}
-.service-header p{
-  margin-top: 1.2rem;
-  font-weight: 300;
-  text-transform: none;
-}
 .all {
   display: flex;
   perspective: 10px;
