@@ -32,7 +32,7 @@ function Contact() {
   }
   return (
     <section id="contact">
-      <blockquote className="contact-header">
+      <blockquote className="contact-header reveal">
         <h2>Contact</h2>
         <p>
           Let's <span className="cyan">create</span> something cool together.
@@ -94,7 +94,7 @@ function Contact() {
           </button>
         </form>
 
-        <div className="direct-contact-container">
+        <div className="direct-contact-container reveal">
           <ul className="contact-list">
             <li className="list-item">
               <i class="fa-solid fa-location-dot fa-2x">
