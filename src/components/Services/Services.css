@@ -91,7 +91,7 @@
 
 .left {
   transform: translateX(-30px) translateZ(-25px) rotateY(-5deg);
-  background-image: url(https://cdn3.iconfinder.com/data/icons/other-icons/48/creative_draw-512.png);
+  background-image: url('https://cdn3.iconfinder.com/data/icons/other-icons/48/creative_draw-512.png');
 }
 
 .center {
