@@ -4,6 +4,7 @@ import Skills from './components/Skills/Skills.jsx';
 import Services from './components/Services/Services.jsx';
 import Projects from './components/Projects/Projects.jsx';
 import Contact from './components/Contact/Contact.jsx';
+import Footer from './components/Footer/Footer.jsx';
 import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Services/>
       <Projects/>
       <Contact/>
+      <Footer/>
     </main>
   )
 }
