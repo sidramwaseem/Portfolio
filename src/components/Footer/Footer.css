@@ -1,0 +1,20 @@
+.footer{
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    background-color: #171C23 ;
+    padding: 1.2rem;
+    letter-spacing: 0.2rem;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+.footer a:hover{
+    color: #18D58E;
+}
+.footer i{
+    color: #18D58E ;
+}
