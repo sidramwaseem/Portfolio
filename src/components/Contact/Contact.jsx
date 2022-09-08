@@ -27,7 +27,7 @@ function Contact() {
         "j2fJhD0Gj6xGmIWgF"
       )
       .then((resp) => {
-        console.log(resp);
+        alert("Message sent Successfully!");
       }).catch(error => console.log(error));
   }
   return (
