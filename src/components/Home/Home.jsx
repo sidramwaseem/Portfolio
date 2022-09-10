@@ -26,7 +26,7 @@ function Home() {
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
         </div>
-        <button className="btn" > <a href="../../assets/sidraWaseemCV.pdf" title="CV" download>Download CV</a></button>
+        <button className="btn" > <a href="./sidraWaseemCV.pdf" download>Download CV</a></button>
       </nav>
       <section id="home">
       <main className="main-homepage">
